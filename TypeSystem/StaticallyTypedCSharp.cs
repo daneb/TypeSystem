@@ -6,10 +6,10 @@ namespace TypeSystem
     public class StaticallyTypedCSharp
     {
         [Fact]
-        public void StaticTypeSuccess()
+        public void StaticTypeFail()
         {
-            string o = "Hello";
-            Assert.True(o.Length == 5);
+            //Object o = "Hello";
+            //Assert.True(o.Length == 5);
         }
 
         [Fact]
